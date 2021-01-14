@@ -1,0 +1,152 @@
+[
+    {
+        "id":1,
+        "tipo":"bebida",
+        "nombre":"Limonada frapé"
+    },
+    {
+        "id":2,
+        "tipo":"bebida",
+        "nombre":"Frapé de Naranja"
+    },
+    {
+        "id":3,
+        "tipo":"bebida",
+        "nombre":"Jugo de de fresa"
+    },
+    {
+        "id":4,
+        "tipo":"bebida",
+        "nombre":"Jugo de de Maracuyá"
+    },
+    {
+        "id":5,
+        "tipo":"entradas",
+        "nombre":"Aros de cebolla"
+    },
+    {
+        "id":6,
+        "tipo":"entradas",
+        "nombre":"Jalapeños apanados"
+    },
+    {
+        "id":7,
+        "tipo":"entradas",
+        "nombre":"Choricitos"
+    },
+    {
+        "id":8,
+        "tipo":"entradas",
+        "nombre":"Nachos con queso"
+    },
+    {
+        "id":9,
+        "tipo":"entradas",
+        "nombre":"Papas a la francesa"
+    },
+    {
+        "id":10,
+        "tipo":"Hamburguesa",
+        "nombre":"Sencilla"
+    },
+    {
+        "id":11,
+        "tipo":"Hamburguesa",
+        "nombre":"Clásica"
+    },
+    {
+        "id":12,
+        "tipo":"Hamburguesa",
+        "nombre":"Mixta"
+    },
+    {
+        "id":13,
+        "tipo":"Hamburguesa",
+        "nombre":"Pollo"
+    },
+    {
+        "id":14,
+        "tipo":"Hamburguesa",
+        "nombre":"Doble"
+    },
+    {
+        "id":15,
+        "tipo":"Hamburguesa",
+        "nombre":"Especial"
+    },
+    {
+        "id":16,
+        "tipo":"Alitas",
+        "nombre":"TeriyaquiX8"
+    },
+    {
+        "id":17,
+        "tipo":"Alitas",
+        "nombre":"TeriyaquiX16"
+    },
+    {
+        "id":18,
+        "tipo":"Alitas",
+        "nombre":"BBQX8"
+    },
+    {
+        "id":19,
+        "tipo":"Alitas",
+        "nombre":"BBQX16"
+    },
+    {
+        "id":20,
+        "tipo":"Alitas",
+        "nombre":"MielMostazaX8"
+    },
+    {
+        "id":21,
+        "tipo":"Alitas",
+        "nombre":"MielMostazaX16"
+    },
+    {
+        "id":22,
+        "tipo":"Alitas",
+        "nombre":"BuffaloX8"
+    },
+    {
+        "id":23,
+        "tipo":"Alitas",
+        "nombre":"BuffaloX16"
+    },
+    {
+        "id":24,
+        "tipo":"Sandwich",
+        "nombre":"Filete de carne"
+    },
+    {
+        "id":25,
+        "tipo":"Sandwich",
+        "nombre":"Carne desmechada"
+    },
+    {
+        "id":26,
+        "tipo":"Sandwich",
+        "nombre":"Filete de pollo"
+    },
+    {
+        "id":27,
+        "tipo":"Sandwich",
+        "nombre":"Pollo desmechado"
+    },
+    {
+        "id":28,
+        "tipo":"Picada",
+        "nombre":"Personal"
+    },
+    {
+        "id":29,
+        "tipo":"Picada",
+        "nombre":"Mediana"
+    },
+    {
+        "id":30,
+        "tipo":"Picada",
+        "nombre":"Maxi"
+    }
+]
