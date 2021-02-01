@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "name": "Receta"
+    },
+    {
+        "id": 1,
+        "name": "Empacado"
+    },
+    {
+        "id": 2,
+        "name": "Ingrediente"
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "category": 0,
+        "name":"Limonada frapé",
+        "type": 0,
+        "imageURL": "http://www.lacosechaparrillada.com/wp-content/uploads/2020/05/limonada-de-coco-675x450.jpg"
+    },
+    {
+        "category": 0,
+        "name":"Frapé de Naranja",
+        "type": 0,
+        "imageURL": "https://pansgranier.com/wp-content/uploads/2018/01/te-matcha-con-zumo-de-naranja-610x375.jpg"
+    },
+    {
+        "category": 0,
+        "name":"Jugo de de fresa",
+        "type": 0,
+        "imageURL": "https://easyrecetas.com/wp-content/uploads/2020/04/Receta-de-Jugo-de-Fresa-con-Leche.jpg"
+    },
+    {
+        "category": 0,
+        "name":"Jugo de de Maracuyá",
+        "type": 0,
+        "imageURL": "https://www.cocina-ecuatoriana.com/base/stock/Recipe/127-image/127-image_web.jpg"
+    },
+    {
+        "category": 0,
+        "name":"Coca-cola 350",
+        "type": 1,
+        "imageURL": "https://barranquilla.gruposotillo.com/wp-content/uploads/2016/12/coca-cola.jpg"
+    },
+    {
+        "category": 0,
+        "name":"Coca-cola 600",
+        "type": 1,
+        "imageURL": "https://www.scorpion.tienda/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/5/6/560-refresco-coca-cola-600-mililitros.jpg"
+    },
+    {
+        "category": 1,
+        "name":"Aros de cebolla",
+        "type": 0,
+        "imageURL": "https://mylatinatable.com/wp-content/uploads/2016/01/foto-heroe-1024x693.jpg"
+    },
+    {
+        "category": 1,
+        "name":"Jalapeños apanados",
+        "type": 0,
+        "imageURL": "https://www.mccain-foodservice.es/wp-content/uploads/2019/01/Breaded-Stuffed-Jalapeno-pepper-45904_F.jpg"
+    },
+    {
+        "category": 1,
+        "name":"Choricitos",
+        "type": 0,
+        "imageURL": "https://www.hnosmesones.com/cache/5/e/1/d/d/5e1dda1337ec9412a29cd0a9703b16d6137c0c0a.jpg"
+    },
+    {
+        "category": 1,
+        "name":"Nachos con queso",
+        "type": 0,
+        "imageURL": "https://www.divinacocina.es/wp-content/uploads/nachos-con-salsa-queso.jpg"
+    },
+    {
+        "category": 1,
+        "name":"Papas a la francesa",
+        "type": 0,
+        "imageURL": "https://hamburguesasgarfields.com/wp-content/uploads/2018/01/French-Fries-french-fries-1-1-862x582.jpg"
+    },
+    {
+        "category": 2,
+        "name":"Sencilla",
+        "type": 0,
+        "imageURL": "https://ranchoviejocartagena.com/wp-content/uploads/2020/05/hamburguesa-grande-en-el-fondo-blanco-47519244.jpg?189db0&189db0"
+    },
+    {
+        "category": 2,
+        "name":"Clásica",
+        "type": 0,
+        "imageURL": "https://res.cloudinary.com/civico/image/upload/c_fill,f_auto,fl_lossy,h_500,q_auto,w_500/v1550691387/offer_card/5c6da85a2f41f3ccd2001390.jpg"
+    },
+    {
+        "category": 2,
+        "name":"Mixta",
+        "type": 0,
+        "imageURL": "https://www.faststation.net/wp-content/uploads/2018/10/Hamburguesa-MIxta.jpg"
+    },
+    {
+        "category": 2,
+        "name":"Pollo",
+        "type": 0,
+        "imageURL": "https://unareceta.com/wp-content/uploads/2014/07/hamburguesa-de-pollo.jpg"
+    },
+    {
+        "category": 2,
+        "name":"Doble",
+        "type": 0,
+        "imageURL": "https://cdn.shopify.com/s/files/1/0323/2405/9275/products/hamburguesa_doble_carne_1024x1024.png?v=1594184497"
+    },
+    {
+        "category": 2,
+        "name":"Especial",
+        "type": 0,
+        "imageURL": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2018/04/25/15246544766356.jpg"
+    },
+    {
+        "category": 3,
+        "name":"TeriyaquiX8",
+        "type": 0,
+        "imageURL": "https://image.freepik.com/foto-gratis/alitas-pollo-salsa-teriyaki-ajonjoli_138219-256.jpg"
+    },
+    {
+        "category": 3,
+        "name":"TeriyaquiX16",
+        "type": 0,
+        "imageURL": "https://image.freepik.com/foto-gratis/alitas-pollo-salsa-teriyaki-ajonjoli_138219-256.jpg"
+    },
+    {
+        "category": 3,
+        "name":"BBQX8",
+        "type": 0,
+        "imageURL": "https://es.cravingsjournal.com/wp-content/uploads/2019/11/alitas-bbq-6-500x500.jpg"
+    },
+    {
+        "category": 3,
+        "name":"BBQX16",
+        "type": 0,
+        "imageURL": "https://es.cravingsjournal.com/wp-content/uploads/2019/11/alitas-bbq-6-500x500.jpg"
+    },
+    {
+        "category": 3,
+        "name":"MielMostazaX8",
+        "type": 0,
+        "imageURL": "https://hermel.com.sv/wp-content/uploads/2019/10/alitas-mostaza.jpg"
+    },
+    {
+        "category": 3,
+        "name":"MielMostazaX16",
+        "type": 0,
+        "imageURL": "https://hermel.com.sv/wp-content/uploads/2019/10/alitas-mostaza.jpg"
+    },
+    {
+        "category": 3,
+        "name":"BuffaloX8",
+        "type": 0,
+        "imageURL": "https://cdn.kiwilimon.com/recetaimagen/26558/23715.jpg"
+    },
+    {
+        "category": 3,
+        "name":"BuffaloX16",
+        "type": 0,
+        "imageURL": "https://cdn.kiwilimon.com/recetaimagen/26558/23715.jpg"
+    },
+    {
+        "category":4,
+        "name":"Filete de carne",
+        "type": 0,
+        "imageURL": "https://d37k6lxrz24y4c.cloudfront.net/v2/es-ar/e9dc924f238fa6cc29465942875fe8f0/e35d74a6-5d7e-4de6-ba6f-06c40e45f32a-600.jpg"
+    },
+    {
+        "category":4,
+        "name":"Carne desmechada",
+        "type": 0,
+        "imageURL": "https://www.gourmet.cl/wp-content/uploads/2016/05/Sandwich-de-Carne-Mechada-con-cebolla-caramelizada-y-tomates-asados.jpg"
+    },
+    {
+        "category":4,
+        "name":"Filete de pollo",
+        "type": 0,
+        "imageURL": "https://elgourmet.s3.amazonaws.com/recetas/share/s-ndw_AfsS859PRoHcJpKwd6r4Me0FUBDtCg.png"
+    },
+    {
+        "category":4,
+        "name":"Pollo desmechado",
+        "type": 0,
+        "imageURL": "https://www.tqma.com.ec/images/com_yoorecipe/img_preview/cropped-16308.jpg"
+    },
+    {
+        "category":5,
+        "name":"Personal",
+        "type": 0,
+        "imageURL": "https://media-cdn.tripadvisor.com/media/photo-s/17/41/bd/26/la-picada-es-un-plato.jpg"
+    },
+    {
+        "category":5,
+        "name":"Mediana",
+        "type": 0,
+        "imageURL": "https://media-cdn.tripadvisor.com/media/photo-s/17/41/bd/26/la-picada-es-un-plato.jpg"
+    },
+    {
+        "category":5,
+        "name":"Maxi",
+        "type": 0,
+        "imageURL": "https://media-cdn.tripadvisor.com/media/photo-s/17/41/bd/26/la-picada-es-un-plato.jpg"
+    }
+]

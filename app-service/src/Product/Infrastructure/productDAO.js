@@ -12,7 +12,13 @@ const getProducts = () => {
         products = [];
         results.rows.map((row) => {
           products.push(
-            new Product(row.id, row.product_name, row.product_type, row.product_image)
+            Product(
+              row.id,
+              row.product_name,
+              row.product_type,
+              row.product_category,
+              row.product_image
+            )
           );
         });
         resolve(products);
@@ -23,25 +29,37 @@ const getProducts = () => {
   });
 };
 
+
 /**
  * With this method, it create new products
  */
-const createProduct = (product) => {
+const createProducts = (products) => {
   return new Promise((resolve, reject) => {
-    DatabaseClient.getClient
-      .query(
-        "INSERT INTO product(product_name, product_type, product_image) VALUES ($1, $2, $3);",
-        [product.productName, product.productType, product.productImage]
-      ).then(()=>{
-        resolve();
-      })
-      .catch((e) => {
-        reject(e);
-      });
+    const client = DatabaseClient.getClient;
+    products.forEach((product) => {
+      client
+        .query(
+          "INSERT INTO product(product_name, product_type, product_category, product_image) VALUES ($1, $2, $3, $4);",
+          [
+            product.productName,
+            product.productType,
+            product.productCategory,
+            product.productImage,
+          ]
+        )
+        .then(() => {
+          resolve();
+        })
+        .catch((e) => {
+          reject(e);
+        });
+    });
   });
 };
 
+
+
 module.exports = {
   getProducts: getProducts,
-  createProduct: createProduct,
+  createProducts: createProducts
 };

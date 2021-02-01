@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Bebida"
+  },
+  {
+    "id": 1,
+    "name": "Entrada"
+  },
+  {
+    "id": 2,
+    "name": "Hamburguesa"
+  },
+  {
+    "id": 3,
+    "name": "Alitas"
+  },
+  {
+    "id": 4,
+    "name": "Sandwich"
+  },
+  {
+    "id": 5,
+    "name": "Picada"
+  }
+]

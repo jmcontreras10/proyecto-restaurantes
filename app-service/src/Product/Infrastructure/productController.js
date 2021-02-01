@@ -1,21 +1,72 @@
 const Product = require("../Domain/VOProduct");
-const { getProducts, createProduct } = require("./productDAO");
+const { addElements } = require('../../Shared/Infrastructure/enumDAO');
+
+const {
+  getProducts,
+  createProducts
+} = require("./productDAO");
 
 /**
  * POST: Create a Product
+ * @param {Request} req
+ * @param {Response} res
+ */
+const createProducHandler = async (req, res) => {
+  const data = req.body;
+  const newProducts = data.map((element) =>
+      Product(
+        "",
+        element.name,
+        element.type,
+        element.category,
+        element.imageURL
+      ) 
+  );
+  createProducts(newProducts)
+    .then(() => {
+      res.json({ message: "Productos creados exitosamente" });
+      res.status(201);
+    })
+    .catch((e) => {
+      console.log(e.message);
+      res.status(500);
+    });
+};
+
+/**
+ * POST: Create new categories
  * @param {*} req
  * @param {*} res
  */
-const createProducHandler = async (req, res) => {
-  const { name, type, imageURL } = req.body;
-  const newProduct = new Product('', name, type, imageURL);
-  createProduct(newProduct).then(()=>{
-    res.json({message:'Producto creado exitosamente'});
-    res.status(201);
-  }).catch(e =>{
-    console.log(e.message);
-    res.status(500);
-  });
+const createProductCategoriesHandler = async (req, res) => {
+  const newCategories = req.body;
+  addElements(newCategories, 'product_category')
+    .then(() => {
+      res.json({ message: "Categorias creadas exitosamente" });
+      res.status(201);
+    })
+    .catch((e) => {
+      console.log(e.message);
+      res.status(500);
+    });
+};
+
+/**
+ * POST: Create new categories
+ * @param {*} req
+ * @param {*} res
+ */
+const createProductTypesHandler = async (req, res) => {
+  const newTypes = req.body;
+  addElements(newTypes, 'product_type')
+    .then(() => {
+      res.json({ message: "Tipos creados exitosamente" });
+      res.status(201);
+    })
+    .catch((e) => {
+      console.log(e.message);
+      res.status(500);
+    });
 };
 
 /**
@@ -40,4 +91,6 @@ const getProductsListHandler = async (req, res) => {
 module.exports = {
   createProduct: createProducHandler,
   getProducts: getProductsListHandler,
+  createProductCategoriesHandler: createProductCategoriesHandler,
+  createProductTypesHandler: createProductTypesHandler,
 };
